@@ -1,0 +1,18 @@
+{
+  "name": "unifi-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.mjs",
+    "start": "node src/server.mjs"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@fastify/static": "^7.0.4",
+    "@fastify/websocket": "^10.0.1",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1"
+  }
+}
